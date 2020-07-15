@@ -43,6 +43,7 @@ a:focus {
 
 .tm-text-primary-icon {
   color: #02c39a;
+  padding-bottom: 15px;
 }
 
 .tm-text-primary {
@@ -223,8 +224,8 @@ a:focus {
 }
 
 .tm-intro-text {
-  font-size: 1.2rem;
-  line-height: 1.4;
+  font-size: 1rem;
+  line-height: 2;
 }
 
 .tm-icon {
@@ -236,9 +237,9 @@ a:focus {
 /* Work */
 
 .tm-work-description {
-  max-width: 650px;
+  max-width: 750px;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .tm-gallery-container {
@@ -541,7 +542,6 @@ p {
   .tm-gallery-item {
     margin: 0;
   }
-}
 
 @media (max-width: 420px) {
   .tm-btn-submit {

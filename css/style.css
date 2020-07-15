@@ -368,7 +368,7 @@ figure.effect-honey h2 {
 
 #contact {
   color: white;
-  background-image: url(../img/woman-working-at-home-with-her-laptop-4050296.jpg);
+  background-image: url(../img/img-06.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 700px;
@@ -582,3 +582,7 @@ p {
   font-size: 2rem;
   font-weight: bold;
 }
+
+.shadow {
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+  }

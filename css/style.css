@@ -368,7 +368,7 @@ figure.effect-honey h2 {
 
 #contact {
   color: white;
-  background-image: url(../img/img-06.jpg);
+  background: url(../img/img-06.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 700px;
@@ -527,12 +527,12 @@ p {
   }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .tm-gallery-container {
     max-width: 220px;
     margin-left: auto;
     margin-right: auto;
-  }
+  } */
 
   .slick-dots li {
     margin: 0 8px;

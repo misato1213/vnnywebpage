@@ -44,6 +44,7 @@ a:focus {
 .tm-text-primary-icon {
   color: #02c39a;
   padding-bottom: 15px;
+  list-style: none;
 }
 
 .tm-text-primary {
@@ -369,7 +370,7 @@ figure.effect-honey h2 {
 
 #contact {
   color: white;
-  background: url(../img/img-06.jpg);
+  background: url(../img/img-03.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 700px;
@@ -469,6 +470,10 @@ p {
     padding-right: 0px;
     padding-left: 30px;
   }
+  .nav-link-flags{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -559,7 +564,7 @@ p {
   padding: 0px;
 }
 .no-margin {
-  padding: 0px;
+  margin: 0px;
 }
 
 .bk-course{
@@ -583,6 +588,35 @@ p {
   font-weight: bold;
 }
 
-.shadow {
-  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+.textshadow {
+  text-shadow: 1px 1px 2px #000, 0px 0px 25px #000, 0px 0px 5px #000;
   }
+
+.dropdown-menu {
+  background: #ffffff60;
+  border: none;
+  min-width: 1.2rem;
+}
+.dropdown {
+  margin-left: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+.dropdown-toggle img {
+  width: 25px;
+  height: 25px;
+}
+.dropdown-menu img{
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.img-course{
+}
+.card-course {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+}

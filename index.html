@@ -49,9 +49,44 @@
               </li>
               <li class="nav-item">
                   <a class="nav-link tm-nav-link" href="#contact">Contact Us</a>
-              </li>                    
+              </li> 
+
+              <!-- <ul class="dropdown language-selector nav-item">
+                <a href="#" class="dropdown-toggle nav-link tm-nav-link" data-toggle="dropdown" data-close-others="true" aria-expanded="false">
+                  <img src="img/icons8-usa-48.png" />
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="active">
+                    <a class="nav-link-flags tm-nav-link" href="#">
+                      <img src="img/icons8-usa-48.png" alt="American English"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-link-flags tm-nav-link" href="#">
+                      <img src="img/icons8-united-arab-emirates-48.png"  alt="Arabic"/>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="nav-link-flags tm-nav-link" href="#">
+                      <img src="img/icons8-japan-48.png"  alt="Japanese"/>
+                    </a>
+                  </li>
+                </ul>
+              </ul>               -->
             </ul>
-          </div>        
+          </div>
+               
+          <div class="dropdown d-flex align-items-center">
+            <span class="dropdown-toggle center" data-toggle="dropdown">
+              <img src="img/icons8-usa-48.png" alt="American English"/>
+            </span>
+            <ul class="dropdown-menu">
+              <li><a href="#"><img src="img/icons8-usa-48.png" alt="American English"/></a></li>
+              <li><a href="#"><img src="img/icons8-united-arab-emirates-48.png"  alt="Arabic"/></a></li>
+              <li><a href="#"><img src="img/icons8-japan-48.png"  alt="Japanese"/></a></li>
+            </ul>
+          </div>
+
         </div>
       </nav>
       
@@ -98,51 +133,74 @@
         <div class="row">
           <div class="text-center col-12">
               <h2 class="tm-text-primary tm-section-title mb-4">Course</h2>
-              <p class="mx-auto tm-work-description">
+              <p class="mx-auto tm-work-description d-none d-md-block">
                 Our online language classes incorporate the renowned Berlitz Method, which is the first-known immersive teaching method and has proven to be the fastest language learning method available.Check out our online language class offerings below.
               </p>
-          </div>            
+          </div>
         </div>
-        <ul class="d-sm-none">
-          <li>General English</li>
-          <li>Bussiness English</li>
-          <li>Academic English</li>
-          <li>Young Learners English</li>
-          <li>TOIEC</li>
-        </ul>
-        <div class="row d-flex justify-content-center tm-gallery-container">          
-          <figure class="effect-honey tm-gallery-item col-2 course-padding d-none d-md-block">
-            <img src="img/img-course-01.jpg" alt="Image" class="img-fluid">
-            <figcaption>
-              <h2><span>General</span></h2>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey tm-gallery-item col-2 course-padding d-none d-md-block">
-            <img src="img/img-course-02.jpg" alt="Image" class="img-fluid">
-            <figcaption>
-              <h2><span>Bussiness</span></h2>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey tm-gallery-item col-2 course-padding d-none d-md-block">
-            <img src="img/img-course-06.jpg" alt="Image" class="img-fluid">
-            <figcaption>
-              <h2><span>Academy</span></h2>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey tm-gallery-item col-2 course-padding d-none d-md-block">
-            <img src="img/img-course-03.jpg" alt="Image" class="img-fluid">
-            <figcaption>
-              <h2><span>Young Learners</span></h2>
-            </figcaption>
-          </figure>
-          <figure class="effect-honey tm-gallery-item col-2 course-padding d-none d-md-block">
-            <img src="img/img-course-04.jpg" alt="Image" class="img-fluid">
-            <figcaption>
-              <h2><span>TOIEC</span></h2>
-            </figcaption>
-          </figure>
+        <!-- course for mobile -->
+        <!-- <div class="row">
+          <div class="text-center col-12 d-sm-none tm-text-primary-icon mb-4">
+            <h4>General English</h4>
+            <h4>Bussiness English</h4>
+            <h4>Academic English</h4>
+            <h4>Young Learners English</h4>
+            <h4>TOIEC</h4>
+          </div>
+        </div> -->
+        <!-- course for PC display -->
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="card card-course">
+              <img class="card-img" src="img/img-course-01.jpg" alt="General English">
+              <div class="card-img-overlay d-flex flex-column">
+                  <h4 class="card-title mt-auto tm-text-primary-icon textshadow">General English</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="card card-course">
+              <img class="card-img" src="img/img-course-02.jpg" alt="Bussiness English">
+              <div class="card-img-overlay d-flex flex-column">
+                  <h4 class="card-title mt-auto tm-text-primary-icon textshadow">Bussiness English</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="card card-course">
+              <img class="card-img" src="img/img-course-03.jpg" alt="Academic English">
+              <div class="card-img-overlay d-flex flex-column">
+                  <h4 class="card-title mt-auto tm-text-primary-icon textshadow">Academic English</h5>
+              </div>
+            </div>
+          </div>
         </div>
-
+        <div class="row">
+          <div class="col-lg-4 col-12">
+            <div class="card card-course">
+                <img class="card-img" src="img/img-course-04.jpg" alt="Young Learners English">
+                <div class="card-img-overlay d-flex flex-column">
+                    <h4 class="card-title mt-auto tm-text-primary-icon textshadow">Young Learners English</h5>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="card card-course">
+            <img class="card-img" src="img/img-course-05.jpg" alt="TOIEC">
+            <div class="card-img-overlay d-flex flex-column">
+                <h4 class="card-title mt-auto tm-text-primary-icon textshadow">TOIEC</h5>
+            </div>
+          </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <div class="card card-course">
+              <img class="card-img" src="img/img-course-06.jpg" alt="Callan Method">
+              <div class="card-img-overlay d-flex flex-column">
+                  <h4 class="card-title mt-auto tm-text-primary-icon textshadow">Callan Method</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -251,7 +309,7 @@
             </div>
             <div class="col-md-4">
               <i class="fas fa-4x fa-comments tm-icon"></i>
-              <h4 class="tm-text-primary-icon mb-4">2. Counselling</h4>
+              <h4 class="tm-text-primary-icon mb-4">2. Pre-trial</h4>
               <p class="d-none d-md-block">
                 Second, we will provide advice on English conversation learning for improvement and recommended courses. It is not necessary to decide on admission on that day, so please consider carefully.
               </p>
@@ -289,22 +347,29 @@
               </a>              
             </div> -->
             <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <a href="mailto:info@company.co" class="tm-contact-item-link shadow">
+              <a href="mailto:info@company.co" class="tm-contact-item-link textshadow">
                   <i class="fas fa-3x fa-envelope mr-4"></i>
                   <span class="mb-0">info@company.co</span>
               </a>              
             </div>
             <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <a href="#" class="tm-contact-item-link shadow">
+              <a href="#" class="tm-contact-item-link textshadow">
                   <i class="fab fa-3x fa-facebook-square mr-4"></i>
                   <span class="mb-0">facebook</span>
                   
               </a>
             </div>
             <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
-              <a href="#" class="tm-contact-item-link shadow">
-                  <i class="fab fa-3x fab fa-skype mr-4"></i>
-                  <span class="mb-0">Skype </span>
+              <a href="#" class="tm-contact-item-link textshadow">
+                  <i class="fab fa-3x fab fa-whatsapp mr-4"></i>
+                  <span class="mb-0">Whatsapp</span>
+                  
+              </a>
+            </div>
+            <div class="col-sm-12 col-md-6 d-flex align-items-center tm-contact-item">
+              <a href="#" class="tm-contact-item-link textshadow">
+                  <i class="fab fa-3x fab fa-line mr-4"></i>
+                  <span class="mb-0">Line</span>
                   
               </a>
             </div>

@@ -21,13 +21,13 @@ a:focus {
   outline: none;
 }
 
-.btn {
+/* .btn {
   padding: 8px 32px;
 }
 
 .btn:hover {
   background-color: #ced4da;
-}
+} */
 
 .tm-section-pad-top {
   padding-top: 90px;
@@ -370,7 +370,7 @@ figure.effect-honey h2 {
 
 #contact {
   color: white;
-  background: url(../img/img-03.jpg);
+  background: url(../img/img-06.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 700px;
@@ -518,14 +518,14 @@ p {
   }
 
   .navbar-nav {
-    max-width: 200px;
-    text-align: right;
+    
   }
 
   .navbar-collapse {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 3px;
+    min-width: 4rem;
   }
 
   .navbar-collapse .nav-link {
@@ -593,7 +593,7 @@ p {
   }
 
 .dropdown-menu {
-  background: #ffffff60;
+  background: #fff;
   border: none;
   min-width: 1.2rem;
 }

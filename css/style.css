@@ -56,7 +56,7 @@ a:focus {
 }
 
 .tm-btn-primary {
-  color: white;
+  color: #fff;
   background-color: #02c39a;
   padding: 14px 35px;
   border-radius: 30px;
@@ -73,12 +73,12 @@ a:focus {
 }
 
 .tm-navbar.scroll {
-  background-color: white;
+  background-color: #fff;
   border-bottom: 1px solid #e9ecef;
 }
 
 .navbar-brand {
-  color: white;
+  color: #fff;
   font-size: 1.4rem;
   font-weight: bold;
 }
@@ -97,7 +97,7 @@ a:focus {
 }
 
 .tm-nav-link {
-  color: white;
+  color: #fff;
 }
 
 .tm-navbar.scroll .tm-nav-link {
@@ -111,13 +111,13 @@ a:focus {
 }
 
 .navbar-toggler {
-  border: 1px solid white;
+  border: 1px solid #fff;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .navbar-toggler-icon {
-  color: white;
+  color: #fff;
   padding-top: 6px;
 }
 
@@ -205,7 +205,7 @@ a:focus {
 .tm-down-arrow {
   color: #2a9d8f;
   cursor: pointer;
-  background: white;
+  background: #fff;
   border-radius: 50%;
   padding: 10px 22px 8px;
   transition: all 0.3s ease;
@@ -213,7 +213,7 @@ a:focus {
 
 .tm-down-arrow:hover,
 .tm-down-arrow:focus {
-  color: white;
+  color: #fff;
   background: #02c39a;
 }
 
@@ -369,7 +369,7 @@ figure.effect-honey h2 {
 /* Contact */
 
 #contact {
-  color: white;
+  color: #fff;
   background: url(../img/img-06.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -380,7 +380,7 @@ figure.effect-honey h2 {
 }
 
 .tm-underline {
-  border-top: 2px solid white;
+  border-top: 2px solid #fff;
   height: 8px;
   width: 100%;
 }
@@ -388,7 +388,7 @@ figure.effect-honey h2 {
 .tm-underline-inner {
   width: 25%;
   height: 8px;
-  background: white;
+  background: #fff;
 }
 
 .tm-contact-item {
@@ -402,7 +402,7 @@ figure.effect-honey h2 {
 
 .tm-contact-item-link i,
 .tm-contact-item-link span {
-  color: white;
+  color: #fff;
   transition: all 0.3s ease;
 }
 
@@ -414,25 +414,25 @@ figure.effect-honey h2 {
 .tm-input {
   padding: 8px 25px;
   border-radius: 3px;
-  border: 1px solid white;
+  border: 1px solid #fff;
   background: transparent;
-  color: white;
+  color: #fff;
 }
 
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
+  color: #fff;
   opacity: 1; /* Firefox */
 }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: white;
+  color: #fff;
 }
 
 ::-ms-input-placeholder {
   /* Microsoft Edge */
-  color: white;
+  color: #fff;
 }
 
 .tm-btn-submit {
@@ -448,7 +448,7 @@ figure.effect-honey h2 {
 }
 
 .tm-footer-link {
-  color: white;
+  color: #fff;
 }
 
 .tm-footer-link:hover,
@@ -522,7 +522,7 @@ p {
   }
 
   .navbar-collapse {
-    background-color: rgb(255, 255, 255);
+    background-color: #fff;
     padding: 10px;
     border-radius: 3px;
     min-width: 4rem;
@@ -583,7 +583,7 @@ p {
 }
 
 .why-p{
-  color: white;
+  color: #fff;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -613,10 +613,21 @@ p {
   height: 25px;
 }
 
-.img-course{
-}
 .card-course {
   border: none;
   background-color: transparent;
   padding: 10px;
 }
+
+.carousel-item .img-fluid {
+  width:100%;
+  height:auto;
+}
+
+.carousel-item{
+  height: auto;
+}
+.carousel-inner{
+  width: 250px;
+  background-color: #d5fcdd;
+  }

@@ -21,13 +21,13 @@ a:focus {
   outline: none;
 }
 
-/* .btn {
+.btn {
   padding: 8px 32px;
 }
 
 .btn:hover {
   background-color: #ced4da;
-} */
+}
 
 .tm-section-pad-top {
   padding-top: 90px;
@@ -377,6 +377,7 @@ figure.effect-honey h2 {
   position: relative;
   padding-bottom: 10px;
   padding-top: 100px;
+  background-color: #333;
 }
 
 .tm-underline {
@@ -516,10 +517,10 @@ p {
     margin-left: 20px;
     margin-top: 0;
   }
-
+/* 
   .navbar-nav {
     
-  }
+  } */
 
   .navbar-collapse {
     background-color: #fff;
@@ -555,43 +556,36 @@ p {
     margin-top: 20px;
   }
 }
-
 .course-padding {
   padding: 0px 5px 5px 0px;
 }
-
 .no-padding {
   padding: 0px;
 }
 .no-margin {
   margin: 0px;
 }
-
 .bk-course{
   background-size: cover;
   background: #eff7f6;
 }
-
 .bk-process{
   background-size: cover;
   background: #29354f;
 }
-
 .bk-why{
   background: url(../img/img-04.jpg) no-repeat center;
   /* filter: grayscale(90%); */
+  
 }
-
 .why-p{
   color: #fff;
   font-size: 2rem;
   font-weight: bold;
 }
-
 .textshadow {
   text-shadow: 1px 1px 2px #000, 0px 0px 25px #000, 0px 0px 5px #000;
   }
-
 .dropdown-menu {
   background: #fff;
   border: none;
@@ -612,22 +606,37 @@ p {
   width: 25px;
   height: 25px;
 }
-
 .card-course {
   border: none;
   background-color: transparent;
   padding: 10px;
 }
-
-.carousel-item .img-fluid {
-  width:100%;
-  height:auto;
+.carousel-multi-item .controls-top {
+  text-align: center;
+  margin-bottom: 1.88rem;
 }
-
-.carousel-item{
-  height: auto;
+.carousel-course {
+  border: none;
+  background-color: transparent;
+  color: #fff;
 }
-.carousel-inner{
-  width: 250px;
-  background-color: #d5fcdd;
-  }
+.carousel-multi-item .carousel-indicators {
+  margin-bottom: -2.5rem;
+}
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: #2a9d8f;  
+}
+.carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  background-color: #02c39a;
+}
